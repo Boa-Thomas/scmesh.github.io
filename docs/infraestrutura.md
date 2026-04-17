@@ -13,4 +13,4 @@ Um repetidor solar eficiente em SC precisa considerar nossa umidade e dias de ch
 Locais que já temos repetidoras dedicadas:
 * Morro dos Muller - Antônio Carlos.
 
-Tem um ótimo local para uma repetidora? Entre em contato com a comunidade para avaliarmos!
+Tem um ótimo local para uma repetidora? [Entre em contato com a comunidade](https://chat.whatsapp.com/Hn19DdrY6460uGn0EkYwlQ) para avaliarmos!
