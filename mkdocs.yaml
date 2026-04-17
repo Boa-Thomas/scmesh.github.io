@@ -1,19 +1,50 @@
 site_name: SC Mesh
 site_url: https://www.sc-mesh.org
 repo_url: https://github.com/scmesh/scmesh.github.io/
+edit_uri: edit/main/docs/
 
 
 theme:
   name: material
+  language: pt
   palette:
-    primary: indigo
-    accent: blue
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Modo escuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Modo claro
   features:
     - navigation.tabs
+    - navigation.top
+    - navigation.instant
     - search.share
+    - search.suggest
+    - content.code.copy
+    - content.action.edit
+    - toc.follow
   icon:
     logo: fontawesome/solid/circle-nodes
   favicon: img/favicon.png
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+      locale: pt_BR
+      fallback_to_build_date: true
+  - git-committers:
+      repository: scmesh/scmesh.github.io
+      branch: main
 
 nav:
   - Home: index.md

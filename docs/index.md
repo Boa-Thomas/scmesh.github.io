@@ -8,8 +8,9 @@ O **SC Mesh** é uma rede de comunicação via rádio, descentralizada e resilie
 * **Educação:** Documentar e compartilhar conhecimento sobre redes mesh e rádio de baixa potência.
 
 ### 🗺️ Acompanhe a Rede
-Acesse o mapa em tempo real para ver os nós ativos e a cobertura em SC:
-[👉 Mapa da Rede (MeshMap/Enmesh)](#)
+
+!!! info "Em breve"
+    Estamos preparando um mapa público (MeshMap/Enmesh) com os nós ativos e a cobertura em Santa Catarina. Enquanto isso, converse com a comunidade no WhatsApp para saber quais nós estão no ar.
 
 ### 💬 Junte-se a nós
 Interaja com outros operadores e tire suas dúvidas:

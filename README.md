@@ -26,5 +26,14 @@ Se você deseja contribuir para a documentação e quer ver as alterações ante
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/seu-usuario/sc-mesh.git](https://github.com/seu-usuario/sc-mesh.git)
-   cd sc-mesh
+   git clone https://github.com/scmesh/scmesh.github.io.git
+   cd scmesh.github.io
+   ```
+
+2. **Instale as dependências e rode o servidor local:**
+   ```bash
+   uv sync
+   uv run mkdocs serve
+   ```
+
+3. Abra `http://127.0.0.1:8000` no navegador. Edite os arquivos em `docs/` e abra um Pull Request com as alterações.
